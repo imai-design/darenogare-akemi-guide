@@ -1,0 +1,23 @@
+<!-- @dsCard group="Brand" name="カラーパレット" subtitle="ブランド9色（生成り×朱×金）" viewport="1180x460" -->
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>カラーパレット</title><style>
+:root{
+  --ink:#1c1a17; --sub:#6b645c; --line:#e7e1d8; --bg:#faf7f2; --card:#ffffff;
+  --accent:#b4472e; --accent-soft:#f4e7e1; --gold:#a4843f;
+  --a:#2f7d57; --b:#9b7c2e; --c:#7a4b8f;
+  --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 30px rgba(28,26,23,.06);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",-apple-system,sans-serif;
+  color:var(--ink);background:var(--bg);line-height:1.85;-webkit-font-smoothing:antialiased;
+  font-feature-settings:"palt";padding:40px}
+.serif{font-family:"Hiragino Mincho ProN","YuMincho",serif}
+.mono{font-family:ui-monospace,Menlo,monospace}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+
+.dskicker{font-size:11px;letter-spacing:.18em;color:var(--gold);font-weight:700;text-transform:uppercase;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1000px}.sw{padding:14px}.chip{height:84px;border-radius:10px;border:1px solid rgba(0,0,0,.06)}.lbl{font-weight:700;margin-top:10px;font-size:14px}.hex{color:var(--sub);font-size:12px;margin-top:2px}.note{color:var(--sub);font-size:12px;margin-top:1px}</style></head><body>
+<div class="dskicker">Brand · Colors</div>
+<div class="grid"><div class="sw"><div class="chip" style="background:#1c1a17"></div><div class="lbl">ink</div><div class="hex mono">#1c1a17</div><div class="note">本文</div></div><div class="sw"><div class="chip" style="background:#b4472e"></div><div class="lbl">accent</div><div class="hex mono">#b4472e</div><div class="note">アクセント/朱</div></div><div class="sw"><div class="chip" style="background:#a4843f"></div><div class="lbl">gold</div><div class="hex mono">#a4843f</div><div class="note">金/見出し補助</div></div><div class="sw"><div class="chip" style="background:#faf7f2"></div><div class="lbl">bg</div><div class="hex mono">#faf7f2</div><div class="note">背景/生成り</div></div><div class="sw"><div class="chip" style="background:#f4e7e1"></div><div class="lbl">accent-soft</div><div class="hex mono">#f4e7e1</div><div class="note">淡朱</div></div><div class="sw"><div class="chip" style="background:#e7e1d8"></div><div class="lbl">line</div><div class="hex mono">#e7e1d8</div><div class="note">罫線</div></div><div class="sw"><div class="chip" style="background:#2f7d57"></div><div class="lbl">tier A</div><div class="hex mono">#2f7d57</div><div class="note">緑</div></div><div class="sw"><div class="chip" style="background:#9b7c2e"></div><div class="lbl">tier B</div><div class="hex mono">#9b7c2e</div><div class="note">金茶</div></div><div class="sw"><div class="chip" style="background:#7a4b8f"></div><div class="lbl">tier C</div><div class="hex mono">#7a4b8f</div><div class="note">紫</div></div></div>
+</body></html>

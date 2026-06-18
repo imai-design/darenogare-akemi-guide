@@ -1,0 +1,23 @@
+<!-- @dsCard group="Components" name="結論ボックス" subtitle="左罫線＋連番リスト" viewport="900x460" -->
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>結論ボックス</title><style>
+:root{
+  --ink:#1c1a17; --sub:#6b645c; --line:#e7e1d8; --bg:#faf7f2; --card:#ffffff;
+  --accent:#b4472e; --accent-soft:#f4e7e1; --gold:#a4843f;
+  --a:#2f7d57; --b:#9b7c2e; --c:#7a4b8f;
+  --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 30px rgba(28,26,23,.06);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",-apple-system,sans-serif;
+  color:var(--ink);background:var(--bg);line-height:1.85;-webkit-font-smoothing:antialiased;
+  font-feature-settings:"palt";padding:40px}
+.serif{font-family:"Hiragino Mincho ProN","YuMincho",serif}
+.mono{font-family:ui-monospace,Menlo,monospace}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+
+.dskicker{font-size:11px;letter-spacing:.18em;color:var(--gold);font-weight:700;text-transform:uppercase;margin-bottom:14px}
+.conc{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:24px 26px;box-shadow:var(--shadow);max-width:760px}.conc h3{font-size:15px;color:var(--accent);margin-bottom:12px}.conc ol{margin:0;padding-left:0;list-style:none;counter-reset:c}.conc li{position:relative;padding:10px 0 10px 40px;border-top:1px dashed var(--line);font-size:14px}.conc li:first-child{border-top:none}.conc li::before{counter-increment:c;content:counter(c,decimal-leading-zero);position:absolute;left:0;top:10px;color:var(--accent);font-weight:700;font-size:13px;font-family:ui-monospace,Menlo,monospace}</style></head><body>
+<div class="dskicker">Components · Callout</div>
+<div class="conc"><h3>遠回りせず会いに行くなら</h3><ol><li><b>公式インスタライブのコメントで言葉を交わす。</b>突発・不定期だが直近にも配信実績あり。</li><li><b>本人が出る公開イベントを待って、生で会いに行く。</b>バイク・コスメの登壇が主戦場。</li><li><b>確実に会うなら事務所経由の正規の仕事依頼。</b>費用と企画が要る上級ルート。</li></ol></div>
+</body></html>
