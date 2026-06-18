@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>ダレノガレ明美さんに会うための ファン・ロードマップ</title>
+<style>
+  :root{
+    --ink:#1c1a17; --sub:#6b645c; --line:#e7e1d8; --bg:#faf7f2; --card:#ffffff;
+    --accent:#b4472e; --accent-soft:#f4e7e1; --gold:#a4843f;
+    --a:#2f7d57; --b:#9b7c2e; --c:#7a4b8f;
+    --shadow:0 1px 2px rgba(28,26,23,.04),0 8px 30px rgba(28,26,23,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    color:var(--ink); background:var(--bg); line-height:1.85; -webkit-font-smoothing:antialiased;
+    font-feature-settings:"palt";
+  }
+  .serif{font-family:"Hiragino Mincho ProN","YuMincho",serif;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+  /* hero */
+  header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+  .eyebrow{font-size:12px;letter-spacing:.22em;color:var(--accent);font-weight:700;text-transform:uppercase}
+  h1{font-size:clamp(28px,5vw,44px);line-height:1.35;margin:16px 0 18px;font-weight:800;letter-spacing:.01em}
+  .lead{font-size:17px;color:var(--sub);max-width:660px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+  .badge{font-size:12px;color:var(--sub);border:1px solid var(--line);background:var(--card);
+    padding:5px 11px;border-radius:999px;letter-spacing:.02em}
+  /* sections */
+  section{padding:46px 0;border-bottom:1px solid var(--line)}
+  .kicker{font-size:12px;letter-spacing:.18em;color:var(--gold);font-weight:700;margin-bottom:10px;text-transform:uppercase}
+  h2{font-size:23px;font-weight:800;margin-bottom:18px;letter-spacing:.01em}
+  h2 .num{color:var(--accent);font-family:ui-monospace,Menlo,monospace;font-size:16px;margin-right:10px;font-weight:700}
+  p{margin-bottom:14px}
+  .muted{color:var(--sub)}
+  /* conclusion */
+  .conc{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);
+    border-radius:12px;padding:24px 26px;box-shadow:var(--shadow)}
+  .conc h3{font-size:15px;color:var(--accent);margin-bottom:12px;letter-spacing:.04em}
+  .conc ol{margin:0;padding-left:0;list-style:none;counter-reset:c}
+  .conc li{position:relative;padding:10px 0 10px 40px;border-top:1px dashed var(--line)}
+  .conc li:first-child{border-top:none}
+  .conc li::before{counter-increment:c;content:counter(c,decimal-leading-zero);
+    position:absolute;left:0;top:10px;font-family:ui-monospace,Menlo,monospace;color:var(--accent);font-weight:700;font-size:13px}
+  /* status grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .fact{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;box-shadow:var(--shadow)}
+  .fact .lbl{font-size:11px;letter-spacing:.12em;color:var(--gold);font-weight:700;margin-bottom:6px}
+  .fact .val{font-size:14px}
+  /* tiers */
+  .tier{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0;margin-bottom:22px;
+    overflow:hidden;box-shadow:var(--shadow)}
+  .tier-head{padding:20px 24px;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:flex-start}
+  .tier-tag{flex:none;width:42px;height:42px;border-radius:11px;display:grid;place-items:center;
+    font-family:ui-monospace,Menlo,monospace;font-weight:800;font-size:20px;color:#fff}
+  .tier-a .tier-tag{background:var(--a)} .tier-b .tier-tag{background:var(--b)} .tier-c .tier-tag{background:var(--c)}
+  .tier-head .t{font-size:18px;font-weight:800}
+  .tier-head .r{font-size:13px;color:var(--sub);margin-top:3px}
+  .step{padding:18px 24px;border-top:1px solid var(--line)}
+  .step:first-child{border-top:none}
+  .step .sa{font-weight:700;font-size:15px;margin-bottom:6px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .pill{font-size:11px;font-weight:700;letter-spacing:.04em;padding:2px 9px;border-radius:999px;white-space:nowrap}
+  .p-h{background:#e6f3ec;color:#2f7d57} .p-m{background:#f6efda;color:#9b7c2e}
+  .p-l{background:#f3e9ef;color:#7a4b8f} .p-u{background:#eee;color:#777}
+  .step .how{font-size:14px;color:#3c3833;margin-bottom:8px}
+  .step .meta{font-size:12.5px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px 18px}
+  .step .meta b{color:var(--ink);font-weight:700}
+  .step .note{font-size:12.5px;color:var(--sub);margin-top:8px;padding:8px 12px;background:var(--bg);border-radius:8px}
+  /* channel table */
+  .chan{width:100%;border-collapse:collapse;font-size:14px;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .chan th{text-align:left;background:var(--accent-soft);color:var(--accent);font-size:12px;letter-spacing:.06em;padding:11px 14px}
+  .chan td{padding:11px 14px;border-top:1px solid var(--line);vertical-align:top}
+  .chan td:first-child{font-weight:700;white-space:nowrap}
+  .chan a{color:var(--accent);text-decoration:none;word-break:break-all}
+  .chan a:hover{text-decoration:underline}
+  /* claude tasks */
+  .task{display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+  .task:first-child{border-top:none}
+  .task .ic{flex:none;width:30px;height:30px;border-radius:8px;background:var(--accent-soft);color:var(--accent);
+    display:grid;place-items:center;font-family:ui-monospace,Menlo,monospace;font-weight:700;font-size:13px}
+  .task .tx b{display:block;font-size:14.5px}
+  .task .tx span{font-size:12.5px;color:var(--sub)}
+  .task .cad{margin-left:auto;flex:none;font-size:11px;color:var(--gold);font-weight:700;align-self:center}
+  /* first steps */
+  .first{counter-reset:f;list-style:none;padding:0}
+  .first li{position:relative;background:var(--card);border:1px solid var(--line);border-radius:11px;
+    padding:16px 18px 16px 56px;margin-bottom:12px;box-shadow:var(--shadow);font-size:15px}
+  .first li::before{counter-increment:f;content:counter(f);position:absolute;left:16px;top:14px;
+    width:26px;height:26px;background:var(--accent);color:#fff;border-radius:50%;display:grid;place-items:center;
+    font-family:ui-monospace,Menlo,monospace;font-weight:700;font-size:13px}
+  /* ethics */
+  .ethics{background:#fbf4f1;border:1px solid var(--accent-soft);border-radius:12px;padding:22px 24px}
+  .ethics h2{color:var(--accent)}
+  .ethics ul{margin:6px 0 0 0;padding-left:20px}
+  .ethics li{margin-bottom:7px;font-size:14px}
+  /* footer */
+  footer{padding:40px 0 70px;color:var(--sub);font-size:12.5px}
+  footer .src{margin-top:14px;line-height:1.7}
+  footer a{color:var(--sub)}
+  .updated{font-size:12px;color:var(--sub);margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Fan Roadmap</div>
+    <h1 class="serif">ダレノガレ明美さんに会うための<br>ファン・ロードマップ</h1>
+    <p class="lead">公開されている情報だけで組み立てた、健全に「会いに行く」ための手引き。<br>
+    どこをフォローし、何を待ち、どう動けば本人と言葉を交わせるか ── 現実度の高い順に並べました。</p>
+    <div class="badges">
+      <span class="badge">公開情報のみで構成</span>
+      <span class="badge">健全なファン活動の範囲</span>
+      <span class="badge">2026年6月時点</span>
+    </div>
+    <div class="updated">最終更新 2026-06-18</div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">結論</div>
+    <h2>まず、いちばん近道はこの3つ</h2>
+    <div class="conc">
+      <h3>遠回りせず会いに行くなら</h3>
+      <ol>
+        <li><b>公式インスタライブのコメントで言葉を交わす。</b>　突発・不定期だが直近2026年1月にも配信実績あり。オンラインで地理の制約なく、拾われれば本人が読み上げ・反応してくれる「今いちばん現実的に会話できる入口」。</li>
+        <li><b>本人が出る「公開イベント」を待って、生で会いに行く。</b>　2026年のトライアンフ（Triumph）ブランドアンバサダー登壇イベントや、自社コスメ CAROME. の発表会・キャンペーンが主戦場。告知を逃さず参加する。</li>
+        <li><b>確実に「会って話す」なら、事務所（TRUSTAR）経由の正規の仕事依頼。</b>　費用と企画が要る上級ルートだが、いちばん確度が高い。法人・メディア・イベント主催としての打診。</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">前提</div>
+    <h2><span class="num">01</span>いまのダレノガレ明美さん</h2>
+    <p class="muted">「会いやすさ」は本人の活動スタイルで決まります。最初に現状を押さえておくと、ムダ打ちが減ります。</p>
+    <div class="grid">
+      <div class="fact"><div class="lbl">事務所</div><div class="val">2024年7月にLIBERAを退所し独立。自身が代表の<b>株式会社QUEEN</b>。仕事窓口は<b>TRUSTAR</b>と業務提携（2026年1月〜）。</div></div>
+      <div class="fact"><div class="lbl">活動の軸</div><div class="val">近年はタレント業より<b>実業（美容ブランド CAROME.）</b>中心。TV露出は最盛期より落ち着いている。</div></div>
+      <div class="fact"><div class="lbl">ファンクラブ</div><div class="val">専用ファンクラブ・有料サロン・公式の握手会／サイン会は<b>現状なし</b>（確認できず）。</div></div>
+      <div class="fact"><div class="lbl">SNS</div><div class="val">Instagram 約100万・X 約170万フォロワー。<b>本人発信のメインはInstagram</b>。</div></div>
+      <div class="fact"><div class="lbl">ボクシング</div><div class="val">競技・興行ではなく<b>個人のトレーニング（週2回継続）</b>。観戦・参加できるイベントは現状なし。</div></div>
+      <div class="fact"><div class="lbl">いま熱いトピック</div><div class="val"><b>トライアンフ（バイク）2026アンバサダー</b>就任。公開イベント登壇のチャンス源。</div></div>
+    </div>
+    <p class="muted" style="margin-top:18px;font-size:13px">つまり ── 「サイン会に並んで会う」型は今は少なく、<b>SNS</b>と<b>事業イベント（コスメ・バイク）</b>が会いに行く主戦場、ということです。</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">ロードマップ</div>
+    <h2><span class="num">02</span>会うための3段ロケット（現実度順）</h2>
+
+    <!-- TIER A -->
+    <div class="tier tier-a">
+      <div class="tier-head">
+        <div class="tier-tag">A</div>
+        <div><div class="t">今すぐ・無料・オンラインで「言葉を交わす」</div>
+        <div class="r">いちばん早く、誰でも、お金をかけずに始められる。会話できる確度がいちばん高い入口。</div></div>
+      </div>
+      <div class="step">
+        <div class="sa">公式インスタライブにコメント参加 <span class="pill p-m">確度：中</span></div>
+        <div class="how">@darenogare.akemi をフォローして<b>ライブ通知をオン</b>。配信が始まったらすぐ視聴し、序盤に短く読みやすいコメントを送る。本人が拾えば名前を読み上げ・返答してくれる。</div>
+        <div class="meta"><span>費用：<b>無料</b></span><span>場所：<b>オンライン（地理制約なし）</b></span><span>頻度：<b>突発・不定期</b></span></div>
+        <div class="note">コツ：長文・連投・しつこいDMは逆効果。短く・好意的に・たまに。直近2026年1月にも配信実績あり。</div>
+      </div>
+      <div class="step">
+        <div class="sa">Instagramコメント＆Xリプライを丁寧に継続 <span class="pill p-l">確度：低〜中</span></div>
+        <div class="how">新規投稿の<b>投稿直後</b>に、短く誠実なコメント／リプライを続ける。フォロワーが多いので一発で気づかれる確度は低いが、積み重ねが効く。</div>
+        <div class="meta"><span>費用：<b>無料</b></span><span>場所：<b>オンライン</b></span><span>頻度：<b>随時</b></span></div>
+        <div class="note">コツ：批判・要求・私的接触のお願いはしない。あくまで応援。X（@The_Darenogare）も同様。</div>
+      </div>
+      <div class="step">
+        <div class="sa">CAROME.の周年・新商品キャンペーンで「本人直筆サイン」を狙う <span class="pill p-l">確度：低（抽選）</span></div>
+        <div class="how">本人プロデュースのコスメ CAROME. は、対象商品を買って公式をメンション投稿 → <b>抽選で本人直筆サイン入りカード</b>がもらえる企画を実施（7周年では77名当選）。対面ではないが「直筆」を正当に手に入れられる。</div>
+        <div class="meta"><span>費用：<b>商品代＋送料</b></span><span>時期：<b>毎年4/1前後の周年・新商品時</b></span></div>
+        <div class="note">2026年の7周年企画（4/1〜5/8）は終了済み。@carome_official とcarome.jpをフォローして次回告知を待つ。</div>
+      </div>
+    </div>
+
+    <!-- TIER B -->
+    <div class="tier tier-b">
+      <div class="tier-head">
+        <div class="tier-tag">B</div>
+        <div><div class="t">公開イベントに行って「生で会う」</div>
+        <div class="r">本人が登壇・登場する場に、一般参加で行く。告知の監視がカギ。</div></div>
+      </div>
+      <div class="step">
+        <div class="sa">トライアンフ（Triumph）アンバサダー登壇イベント <span class="pill p-m">確度：中</span></div>
+        <div class="how">2026年のブランドアンバサダー。新型発表会・モーターサイクルショー・正規ディーラーのフェアなどに登壇・登場の可能性。一般来場できる回を狙う。</div>
+        <div class="meta"><span>費用：<b>無料〜（イベント次第）</b></span><span>場所：<b>首都圏中心・全国ディーラー</b></span><span>頻度：<b>不定期・要監視</b></span></div>
+        <div class="note">直近のBrand Night 2026（1/13）・モダンクラシックフェア（〜3/1）は終了済み。トライアンフ公式と本人SNSの次回告知を追う。</div>
+      </div>
+      <div class="step">
+        <div class="sa">CAROME./GARRONE の発表会・ポップアップ・店頭イベント <span class="pill p-m">確度：中</span></div>
+        <div class="how">本人が代表のコスメ CAROME.・ランジェリー GARRONE。新商品の発表会やポップアップに本人が登壇・登場することがある。来場すれば間近で見られる。</div>
+        <div class="meta"><span>費用：<b>無料〜（来場/購入条件あり）</b></span><span>場所：<b>都市部（過去：渋谷スクランブルスクエア等）</b></span><span>頻度：<b>不定期・要監視</b></span></div>
+        <div class="note">一般参加の可否はTRUSTAR（03-3400-9100）かCAROME.お客様窓口（0120-333-476）に照会すると確実。</div>
+      </div>
+      <div class="step">
+        <div class="sa">チケット制イベント・TV観覧の応募 <span class="pill p-l">確度：低</span></div>
+        <div class="how">イープラスの本人ページをお気に入り登録し、トークイベント等のチケットが出たら確保。出演番組に観覧募集があれば応募。</div>
+        <div class="meta"><span>費用：<b>イベント次第</b></span><span>頻度：<b>現状掲載なし・要監視</b></span></div>
+        <div class="note">現時点でチケット販売・観覧募集は確認できず。出たら即動けるよう登録だけ済ませておく。</div>
+      </div>
+      <div class="step">
+        <div class="sa">ファンレターを送る（現・正規窓口へ） <span class="pill p-l">確度：低（届く可能性はある）</span></div>
+        <div class="how">想いを言葉で届ける王道。送付前にTRUSTARに<b>ファンレターの受付可否と宛先</b>を確認してから送る。</div>
+        <div class="meta"><span>費用：<b>切手代</b></span><span>送付先：<b>TRUSTAR（東京都渋谷区渋谷3-21-11 渋谷サウス8F）</b></span></div>
+        <div class="note">注意：ネットに出回る旧事務所（LIBERA／神山町）の住所は<b>退所済みで無効の可能性が高い</b>ので使わない。返信や面会を求めず、純粋な応援に留めるのが品。</div>
+      </div>
+    </div>
+
+    <!-- TIER C -->
+    <div class="tier tier-c">
+      <div class="tier-head">
+        <div class="tier-tag">C</div>
+        <div><div class="t">踏み込んで「仕事で会う」</div>
+        <div class="r">いちばん確実に会って話せる。ただし費用・企画・立場が要る上級ルート。</div></div>
+      </div>
+      <div class="step">
+        <div class="sa">TRUSTAR経由で正規にキャスティング／出演／コラボを依頼 <span class="pill p-h">確度：高</span></div>
+        <div class="how">イベント主催・メディア・企業として、<b>出演・トークゲスト・コラボ・取材</b>を正式に打診する。企画書・目的・媒体・予算感を添えてTRUSTARの問い合わせフォームか電話で。</div>
+        <div class="meta"><span>費用：<b>出演料が発生（要見積）</b></span><span>窓口：<b>TRUSTAR 03-3400-9100 ／ 問い合わせフォーム</b></span><span>場所：<b>東京（渋谷）</b></span></div>
+        <div class="note">「ファンとして会いたい」ではなく「こういう企画でご一緒したい」という形にするのが筋。本人の事業（コスメ・バイク・ボクシング/フィットネス）と接点のある企画ほど通りやすい。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">早見表</div>
+    <h2><span class="num">03</span>フォローしておく公式チャネル</h2>
+    <p class="muted">まずはここを全部フォロー＆ブックマーク。告知はすべてここから出ます。</p>
+    <table class="chan">
+      <tr><th>チャネル</th><th>リンク</th><th>役割</th></tr>
+      <tr><td>Instagram（本人）</td><td><a href="https://www.instagram.com/darenogare.akemi/">@darenogare.akemi</a></td><td>メイン発信。ライブ・コメントで会話できる最有力</td></tr>
+      <tr><td>X（本人）</td><td><a href="https://x.com/The_Darenogare">@The_Darenogare</a></td><td>近況・告知。リプライでの交流</td></tr>
+      <tr><td>YouTube（本人）</td><td><a href="https://www.youtube.com/channel/UC-D1hOaMFMs70wR-PPGGjBA">ダレノタメチャンネル</a></td><td>動画。※更新は停滞気味</td></tr>
+      <tr><td>アメブロ（本人）</td><td><a href="https://ameblo.jp/darenogare/">ameblo.jp/darenogare</a></td><td>長文の近況・イベント告知履歴</td></tr>
+      <tr><td>CAROME.（コスメ）</td><td><a href="https://carome.jp/">carome.jp</a> ／ <a href="https://www.instagram.com/carome_official/">@carome_official</a></td><td>発表会・キャンペーン・サイン入り企画の告知元</td></tr>
+      <tr><td>GARRONE（ランジェリー）</td><td><a href="https://garrone.jp/">garrone.jp</a> ／ <a href="https://www.instagram.com/garrone_official/">@garrone_official</a></td><td>新作・コラボ告知</td></tr>
+      <tr><td>TRUSTAR（仕事窓口）</td><td><a href="https://trustar.co.jp/talents/akemi-darenogare/">本人ページ</a> ／ <a href="https://trustar.co.jp/contact/">問い合わせ</a></td><td>出演・コラボの正規依頼。TEL 03-3400-9100</td></tr>
+      <tr><td>イープラス（チケット）</td><td><a href="https://eplus.jp/sf/word/0000064522">本人ワードページ</a></td><td>イベント・チケットが出たらここ。お気に入り登録</td></tr>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">伴走</div>
+    <h2><span class="num">04</span>これは「ずっと」見張り続けます</h2>
+    <p class="muted">会えるチャンスは突発で、しかも終わるのが早い（直近のイベントもほぼ終了済みでした）。だからこそ、告知の監視・下書き・締切リマインドは継続して肩代わりします。</p>
+    <div>
+      <div class="task"><div class="ic">01</div><div class="tx"><b>公開イベント・サイン会・配信の定点監視</b><span>トライアンフ公式／CAROME.公式／イープラス／番組表／本人SNSの告知を巡回し、新しい「会える機会」が出たら通知</span></div><div class="cad">週次〜随時</div></div>
+      <div class="task"><div class="ic">02</div><div class="tx"><b>インスタライブ・配信の検知</b><span>本人SNSのライブ告知・突発配信のサインを拾い、始まりそうなときに知らせる</span></div><div class="cad">随時</div></div>
+      <div class="task"><div class="ic">03</div><div class="tx"><b>応募・キャンペーンの締切リマインド</b><span>CAROME.周年企画やチケット先行など、応募モノの締切前に念押し</span></div><div class="cad">案件ごと</div></div>
+      <div class="task"><div class="ic">04</div><div class="tx"><b>ファンレター・応募文・企画書の下書き</b><span>送る文面はこちらで整える。事務所への正規依頼の企画書も作成</span></div><div class="cad">依頼時</div></div>
+      <div class="task"><div class="ic">05</div><div class="tx"><b>新商品・再販のチェック</b><span>CAROME.の新作・再販（直近は6/19にアイライナー再販予定）など接触の起点を追う</span></div><div class="cad">随時</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="kicker">最初の一歩</div>
+    <h2><span class="num">05</span>今週やること（この3つだけ）</h2>
+    <ol class="first">
+      <li><b>公式3アカウントをフォロー＆通知ON</b> ── Instagram(@darenogare.akemi)・X(@The_Darenogare)・YouTube。特にInstagramの<b>ライブ通知</b>を必ずオンに。これでオンライン会話のチャンスを逃さない態勢になる。</li>
+      <li><b>CAROME.（@carome_official／carome.jp）とトライアンフ公式をフォロー＆ブックマーク</b> ── 次のサイン入り企画・登壇イベントの告知を待つ。6/19のアイライナー再販もチェック。</li>
+      <li><b>イープラスの本人ページをお気に入り登録＋ファンレターの下書きを用意</b> ── 送付はTRUSTARに受付可否を確認してから。下書きはこちらで作れる。</li>
+    </ol>
+  </div>
+</section>
+
+<section class="ethics">
+  <div class="wrap">
+    <h2 style="border:none">健全なファン活動について</h2>
+    <p class="muted">このガイドは「相手に迷惑をかけない、正当な応援」だけを扱っています。次のことは絶対にしないでください。</p>
+    <ul>
+      <li>自宅・移動経路・私的な予定を探る／待ち伏せする</li>
+      <li>しつこいDM・連投・返信の強要、私的な面会の要求</li>
+      <li>批判・誹謗、なりすまし、非公式ルートでの接触</li>
+    </ul>
+    <p class="muted" style="margin-top:12px;margin-bottom:0;font-size:13px">本人の事業・作品を応援し、公式が用意した場（SNS・公開イベント・正規窓口）で気持ちを届ける ── それがいちばん本人に好かれ、結果として「会える」可能性も上がる道です。</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>本ガイドは2026年6月時点で公開されている情報をもとに作成した、非公式のファン向け手引きです。所属・連絡先・イベント情報は変わることがあります。参加前に必ず各公式の最新告知をご確認ください。</p>
+    <p class="src">主な出典：TRUSTAR公式（本人ページ）／CAROME.公式・PR TIMES／トライアンフ ジャパン関連（autoby・virgintriumph）／スポーツニッポン／東京スポーツ／イープラス／番組表.Gガイド ほか。<br>
+    ※私的・非公開の情報は一切収集・掲載していません。</p>
+  </div>
+</footer>
+</body>
+</html>
